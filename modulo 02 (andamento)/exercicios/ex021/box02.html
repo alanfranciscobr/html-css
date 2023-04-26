@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoxModels</title>
+    <style>
+        body {
+            background-color: darkgray;
+            margin: none;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px 10px;
+        }
+        nav {
+            background-color: rgb(136, 136, 136);
+            text-align: center;
+            padding: 3px;
+            margin: 10px 10px;
+        }
+        nav > a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+        }
+        nav > a:hover {
+            font-weight: bolder;
+            text-decoration: underline;
+        }
+        
+        main {
+            background-color: white;
+            margin-top: 10px;
+            padding: 10px;
+        }
+
+        article {
+            background-color: darkgray;
+            padding: 1px 10px;
+        }
+
+        aside {
+            background-color: rgb(114, 114, 114);
+            text-align: center;
+        }
+        
+        footer {
+            background-color: black;
+            margin: 5px ;
+            padding: 2px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>esportes politica economia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias do Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam ex voluptatibus quod est obcaecati nostrum deleniti laborum at consectetur porro architecto, molestias blanditiis harum amet, numquam, ullam tempora quisquam doloremque.</p>
+                <aside>
+                    <p>escrito por alanzinho da silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por alanzinho da silva</p>
+    </footer>
+
+</body>
+</html>
